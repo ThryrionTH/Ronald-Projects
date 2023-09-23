@@ -1,0 +1,135 @@
+
+/* Sidebar */
+
+.container-sidebar ul{
+    list-style: none;
+}
+
+.container-sidebar {
+    background-color: #202123;
+    width: 225px;
+    height: 100vh;
+    position: fixed;
+    color: var(--white);
+    font-family: 'Dosis', sans-serif;
+}
+
+.container-sidebar a{
+    text-decoration: none;
+}
+
+.container-sidebar .title-one {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.container-sidebar .img-sidebar {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container-sidebar .img-profile img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.266);
+}
+
+.container-sidebar .img-profile p{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container-sidebar .title-two{
+    margin: 12% 5% 5% 10%;
+    font-size: 19px;
+}
+
+.container-sidebar .sidebar{
+    width: 100%;
+    margin: auto;
+    height: 35%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+}
+
+.container-sidebar .sidebar-options{
+    width: 95%;
+    margin-right: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container-sidebar .sidebar-options li{
+    padding: 5px 5px 5px 15px;
+    border-radius: 0 10px 10px 0;
+}
+
+.sidebar-options a,
+.sidebar-options i{
+    color:  white;
+}
+
+.container-sidebar .sidebar-options li:hover{
+    background-color: #86EB9A;
+    border-left: 4px solid #4c9c5c;
+    transition: all 200ms ease;
+}
+
+.container-sidebar .sidebar-options li:hover a,
+.container-sidebar .sidebar-options li:hover i,
+.container-sidebar .active a, .container-sidebar .active i{
+    color:black;
+}
+
+.container-sidebar .sidebar-options i{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.img-buttom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    margin:10px auto;
+    text-align: center;
+    background: url('../../img/cat-work.png') center/cover;
+}
+
+.img-buttom a{
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    background: #458B54;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-options .active {
+    background-color: #86EB9A;
+    border-left: 4px solid #4c9c5c;
+}
+
+@media (max-width:1023px) {
+    aside{
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    #body-dashboard{
+        display: grid;
+        grid-template-columns: 225px auto;
+    }
+    
+}

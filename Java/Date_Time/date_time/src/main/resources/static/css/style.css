@@ -1,0 +1,25 @@
+* {
+    margin: 0px auto;
+    width: 970px;
+    text-align: center;
+}
+
+#text_blue {
+    color: blue;
+}
+
+#text_green {
+    color: green;
+}
+
+p {
+    text-align: center;
+}
+
+.no_deco {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}

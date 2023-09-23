@@ -1,0 +1,21 @@
+* {
+    margin: 0px auto;
+    width: 970px;
+}
+
+p {
+    color: red;
+}
+
+.center {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#list {
+    display: block;
+    width: 150px;
+}
